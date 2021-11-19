@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "820439358187",
+    "firebase_url": "https://farms-partner-b7364.firebaseio.com",
+    "project_id": "farms-partner-b7364",
+    "storage_bucket": "farms-partner-b7364.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820439358187:android:2cfaef45c0d76a1f0e7cae",
+        "android_client_info": {
+          "package_name": "com.example.farmspartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820439358187-mfs7sefa43knkjrj80j23s06ilhig7qe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmspartner",
+            "certificate_hash": "1c4a71ea9bb67b9c90444d78ed511649ab8df1bc"
+          }
+        },
+        {
+          "client_id": "820439358187-kdpbp0evba18ni15m32270cg2n6s2p0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhEw8BtY1SUEfBDiGnkG6VT0P8xnBbpqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820439358187-kdpbp0evba18ni15m32270cg2n6s2p0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

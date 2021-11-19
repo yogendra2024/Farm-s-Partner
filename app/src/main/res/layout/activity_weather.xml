@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96F392"
+    tools:context="com.example.farms.WeatherActivity">
+
+
+    <TextView
+        android:id="@+id/tvgovnt1"
+        android:layout_width="265dp"
+        android:layout_height="69dp"
+        android:text="         Weather"
+        android:textColor="#E0011C "
+        android:textSize="28dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <ImageButton
+        android:id="@+id/imgbtnweather1"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:onClick="weather1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328"
+        app:srcCompat="@drawable/weather1" />
+
+    <ImageButton
+        android:id="@+id/imgbtnweather2"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:onClick="weather2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329"
+        app:srcCompat="@drawable/weather2" />
+
+    <ImageButton
+        android:id="@+id/imgbtnweather3"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:onClick="weather3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/weather7" />
+
+    <ImageButton
+        android:id="@+id/imgbtnweather4"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:onClick="weather4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63"
+        app:srcCompat="@drawable/weather4" />
+
+    <ImageButton
+        android:id="@+id/imgbtnweather5"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:onClick="weather5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928"
+        app:srcCompat="@drawable/weather5" />
+
+    <ImageButton
+        android:id="@+id/imgbtnweather6"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/cardview_default_radius"
+        android:onClick="weather6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/weather6" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="125dp"
+        android:layout_height="27dp"
+        android:text="Wunder Ground"
+        android:textColor="#191818"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:text="Time  Date.com"
+        android:textColor="#171515"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="129dp"
+        android:layout_height="25dp"
+        android:text="WeatherServices"
+        android:textColor="#131313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="115dp"
+        android:layout_height="23dp"
+        android:text="TodayWeather"
+        android:textColor="#121111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="108dp"
+        android:layout_height="21dp"
+        android:text="AccWeather"
+        android:textColor="#0E0E0E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="112dp"
+        android:layout_height="21dp"
+        android:text="Weather.com"
+        android:textColor="#101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
